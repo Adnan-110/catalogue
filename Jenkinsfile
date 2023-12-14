@@ -1,3 +1,4 @@
+@Library('Jenkins-Shared-Library') _ 
 pipeline{
     agent{
         label 'ws'
@@ -6,7 +7,7 @@ pipeline{
         stage('Lint Checks') {
             steps {
                 script{
-                    sample.info()
+                    helloWorld.info()
                 }
                 sh "echo ****** Starting Style Checks ****** "
                 sh "npm install jslint"
