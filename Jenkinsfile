@@ -1,3 +1,3 @@
 @Library('Jenkins-Shared-Library') _ 
 
-nodeJs("catalogue")
+nodeJs.call("catalogue")
