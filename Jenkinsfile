@@ -4,6 +4,7 @@
 // There is another way to perform same action where we dont have to pass and catch value 
 // Simply declare environment variable like below
 env.COMPONENT="Catalogue"
+env.APP_TYPE="node"
 
 nodeJs()
 
