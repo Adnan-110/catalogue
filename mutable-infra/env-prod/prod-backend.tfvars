@@ -1,3 +1,3 @@
-bucket  = "b56-terraform-state-bucket"
-key     = "prod/mutable-infra/catalogue/terraform.tfstate"
+bucket  = "adnan-tf-state-bucket"
+key     = "mutable-infra/catalogue/dev/terraform.tfstate"
 region  = "us-east-1"
