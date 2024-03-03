@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: 093842890430.dkr.ecr.us-east-1.amazonaws.com/catalogue:v01
+        image: 093842890430.dkr.ecr.us-east-1.amazonaws.com/catalogue:{{APP_VERSION}}
         ports:
         - containerPort: 8080
         envFrom:
